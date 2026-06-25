@@ -106,7 +106,7 @@ def risk_metric(risk):
         text='Low'
         color='grey'
 
-        retunr text, color
+        return text, color
 
 valid=0
 if button:
