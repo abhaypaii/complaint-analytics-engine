@@ -17,7 +17,7 @@ df = load_complaint_data()
 trends = load_trend_data()
 companies = load_company_data()
 pred = load_predicted_issue_data()
-risk_df = pd.read_csv('/Users/abhaypai/Library/Mobile Documents/com~apple~CloudDocs/Job stuff/Pre 2026/Projects/Portfolio Projects/RBI/Data/risk_distribution.csv')
+risk_df = pd.read_csv('Data/risk_distribution.csv')
 
 
 hc1, hc2=st.columns([1,1])
@@ -294,7 +294,7 @@ with c1:
 with c2:
     sc1, sc2 = st.columns([1.8,1])
     sc1.subheader('Firm Risk Matrix')
-    plot_df = pd.read_csv('/Users/abhaypai/Library/Mobile Documents/com~apple~CloudDocs/Job stuff/Pre 2026/Projects/Portfolio Projects/RBI/Data/institution_anomalies.csv')
+    plot_df = pd.read_csv('Data/institution_anomalies.csv')
     # Convert to categorical
     plot_df["Cluster"] = plot_df["Cluster"].astype(str)
     sc2.write('')
