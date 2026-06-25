@@ -48,9 +48,8 @@ with c4:
                 description=f'{round(len(companies[companies['Cluster']==3])/len(companies)*100,2)}% of 3699 firms')    
 
 with st.sidebar:
-    c1, c2=st.columns(2)
-    start = c1.date_input("Start Date",datetime.date(2015, 7, 1))
-    end = c2.date_input("End Date", datetime.date(2018, 5, 31))
+    start = st.date_input("Start Date",datetime.date(2015, 7, 1))
+    end = st.date_input("End Date", datetime.date(2018, 5, 31))
 
 df = df[
     (pd.to_datetime(df["Date"]) >= pd.to_datetime(start)) &
