@@ -20,3 +20,4 @@ reportlab
 pymupdf
 python-docx
 catboost
+torchvision
