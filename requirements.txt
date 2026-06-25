@@ -12,6 +12,7 @@ google-generativeai
 python-dotenv
 openpyxl
 wordcloud
+google
 matplotlib
 scipy
 sentence-transformers
