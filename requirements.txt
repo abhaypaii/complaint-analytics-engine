@@ -17,3 +17,4 @@ joblib
 scikit-learn
 python-dotenv
 google-generativeai
+sentence-transformers
