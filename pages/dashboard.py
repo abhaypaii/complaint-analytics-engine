@@ -25,6 +25,7 @@ hc1.title('Executive Dashboard')
 
 
 #KPIs
+
 c1, c2, c3, c4 = st.columns(4)
 
 with c1:
