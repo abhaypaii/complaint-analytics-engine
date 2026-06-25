@@ -12,6 +12,17 @@ st.set_page_config(
     }
 )
 
+st.markdown(
+    """
+    <style>
+        section[data-testid="stSidebar"] {
+            width: 350px !important; # Set the width to your desired value
+        }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 dashboard = st.Page(
     page = "pages/dashboard.py",
     title = "Executive Dashboard",
