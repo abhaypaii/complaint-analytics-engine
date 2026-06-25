@@ -7,7 +7,7 @@ xgboost
 joblib
 nltk
 vaderSentiment
-google-generativeai
+google
 python-dotenv
 openpyxl
 wordcloud
