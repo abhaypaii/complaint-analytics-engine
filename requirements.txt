@@ -18,3 +18,10 @@ scikit-learn
 python-dotenv
 google-generativeai
 sentence-transformers
+torchvision
+streamlit_shadcn_ui
+datetime
+json
+reportlab
+pymupdf
+docx
