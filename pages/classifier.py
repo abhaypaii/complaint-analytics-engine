@@ -27,7 +27,7 @@ encoder_issue = models[4]
 risk_model = models[2]
 
 companies = load_company_data()
-risk_df = pd.read_csv('/Users/abhaypai/Library/Mobile Documents/com~apple~CloudDocs/Job stuff/Pre 2026/Projects/Portfolio Projects/RBI/Data/risk_distribution.csv')
+risk_df = pd.read_csv('Data/risk_distribution.csv')
 c1, c2, c3 = st.columns([2,0.1,2])
 cont = c1.container(border=True)
 company = cont.selectbox('Company', options=companies['Company'], index=None)
