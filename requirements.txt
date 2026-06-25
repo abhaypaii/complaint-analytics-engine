@@ -19,3 +19,4 @@ torch
 reportlab
 pymupdf
 python-docx
+catboost
